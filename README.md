@@ -33,3 +33,13 @@ The model achieved approximately 98.96% accuracy on the test dataset.
 6. Train Logistic Regression model
 7. Evaluate the model
 8. Predict whether news is Fake or Real
+
+## Dataset
+
+The datasets are hosted on Google Drive because of their large file size.
+
+- [Fake News Dataset]
+https://drive.google.com/file/d/1xugdAMSQ97CpuTkzox4mMJKHw_arBMKl/view?usp=sharing
+- [True News Dataset]
+https://drive.google.com/file/d/1IKvsjf_A01-FYrqM6_do_aHl78YPV5Oi/view?usp=sharing
+   
