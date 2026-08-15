@@ -1,39 +1,33 @@
-# Fake News Detection Project
+# Fake News Detector
 
 ## About the Project
-This project uses Machine Learning to classify news articles as Fake or Real.
+
+This project is a Machine Learning based Fake News Detection system.
+It predicts whether a given news article is Fake or Real.
 
 ## Technologies Used
+
 - Python
+- Machine Learning
 - Pandas
 - NumPy
-- Matplotlib
-- Seaborn
 - Scikit-learn
 - Jupyter Notebook
+- Streamlit
 
-## Machine Learning Model
-Logistic Regression
+## Project Files
 
-## Text Processing
-TF-IDF (Term Frequency-Inverse Document Frequency)
+- `check.py` - Streamlit frontend
+- `model.pkl` - Trained machine learning model
+- `vectorizer.pkl` - TF-IDF vectorizer
+- `Fake_News_Detection_Project (2).ipynb` - Model training notebook
 
-## Dataset
-The project uses separate datasets containing fake and real news articles.
+## How to Run
 
-## Result
-The model achieved approximately 98.96% accuracy on the test dataset.
+Install the required libraries:
 
-## Project Workflow
-1. Load the dataset
-2. Check and preprocess the data
-3. Clean the news text
-4. Split data into training and testing sets
-5. Apply TF-IDF vectorization
-6. Train Logistic Regression model
-7. Evaluate the model
-8. Predict whether news is Fake or Real
-
+```bash
+pip install streamlit pandas numpy scikit-learn joblib
 ## Dataset
 
 The datasets are hosted on Google Drive because of their large file size.
